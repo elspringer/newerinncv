@@ -11,5 +11,53 @@
 // about supported directives.
 //
 //= require rails-ujs
-//= require turbolinks
+//= require jquery
+//= require plugin
+//= require jquery_ujs
+//= require bootstrap-sprockets
 //= require_tree .
+
+
+
+$(document).ready(function(){
+     $(".ideas").hide();
+     $(".education").hide();
+     $(".experience").hide();
+     $(".testimonials").hide();
+
+$(".hello-link").click(function(){
+    $(".letter").show();
+    $(".ideas").hide();
+   $(".education").hide();
+   $(".experience").hide();
+   $(".testimonials").hide();
+});
+$(".ideas-link").click(function(){
+    $(".letter").hide();
+    $(".ideas").show();
+   $(".education").hide();
+   $(".experience").hide();
+   $(".testimonials").hide();
+});
+$(".education-link").click(function(){
+    $(".letter").hide();
+    $(".ideas").hide();
+   $(".education").show();
+   $(".experience").hide();
+   $(".testimonials").hide();
+});
+$(".experience-link").click(function(){
+    $(".letter").hide();
+    $(".ideas").hide();
+   $(".education").hide();
+   $(".experience").show();
+   $(".testimonials").hide();
+});
+$(".testimonials-link").click(function(){
+    $(".letter").hide();
+    $(".ideas").hide();
+   $(".education").hide();
+   $(".experience").hide();
+   $(".testimonials").show();
+});
+   });

@@ -23,7 +23,7 @@
 body {
   display: flex;
   justify-content: flex-start;
-  background-color: #D3D3D3;
+  /*background-color: #D3D3D3;*/
   ul {
     list-style: none;
   }
@@ -33,11 +33,24 @@ body {
   height: 300px;
   width: 300px;
 }
+.testimonials {
+  width: 70%;
 
+  .row p {
+    margin-top: 0;
+  }
+.testimonial2 {
+    padding-top: 20px;
+  }
+}
 .testimonial-photo {
   height: 200px;
   width: 200px;
+  padding-right: 20px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
+
 .row {
   display: flex;
 }
@@ -78,10 +91,11 @@ a:hover {
     font-size: 24px;
   }
 }
-.ideas {
+
+.testimonials, .experience, .education, .ideas {
   font-family: Cutive Mono;
   font-size: 18px;
-
+  margin-bottom: 50px;
   a:link {
   text-decoration: none;
   border-bottom: 1px dashed #e25440;
@@ -97,27 +111,8 @@ a:hover {
   h3 {
     font-size: 35px;
   }
-  h1 {
-    font-size: 50px;
-  }
-}
-.testimonials {
-  font-family: Cutive Mono;
-  font-size: 18px;
-  a:link {
-  text-decoration: none;
-  border-bottom: 1px dashed #e25440;
-
-}
-a:hover {
-  text-decoration: underline;
-  border-bottom: 1px dashed #e25440;
-}
-.fancystuff {
-  font-family: Damion;
-  }
-  h3 {
-    font-size: 35px;
+  h2 {
+    font-size: 40px;
   }
   h1 {
     font-size: 50px;
@@ -132,4 +127,8 @@ a:hover {
   h1, h2, h3 {
     font-family: Nunito;
   }
+}
+
+.experience, .education, .ideas {
+  width: 70%;
 }
