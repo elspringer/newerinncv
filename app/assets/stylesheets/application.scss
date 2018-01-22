@@ -18,7 +18,7 @@
 
  @import url("https://fonts.googleapis.com/css?family=Alegreya:400,300,700|Raleway:400,100,300,700,500");
  @import url("https://fonts.googleapis.com/css?family=Nunito:400,900");
- @import url("https://fonts.googleapis.com/css?family=Changa|Kavivanar|Cutive+Mono|Damion|Sedgwick+Ave");
+ @import url("https://fonts.googleapis.com/css?family=Changa|Kavivanar|Cutive+Mono|Damion|Faster+One");
 
 body {
   display: flex;
@@ -62,7 +62,7 @@ body {
   text-transform: uppercase;
 a {
   color: #FF371E;
-  font-family: Nunito;
+  font-family: Cutive Mono;
 }
 a:link {
   text-decoration: none;
@@ -87,7 +87,7 @@ a:hover {
 }
 
   .fancystuff {
-    font-family: Damion;
+    font-family: 'Faster One';
 
   }
 }
@@ -109,7 +109,7 @@ a:hover {
   border-bottom: 1px dashed #e25440;
 }
 .fancystuff {
-  font-family: Damion;
+  font-family: 'Faster One';
   }
 /*  h3 {
     font-size: 35px;
@@ -128,7 +128,7 @@ a:hover {
   margin-left: 60px;
 
   h1, h2, h3 {
-    font-family: 'Sedgwick Ave', cursive;
+    font-family: 'Faster One';
   }
 }
 
