@@ -62,7 +62,7 @@ body {
   text-transform: uppercase;
 a {
   color: #FF371E;
-  font-family: Cutive Mono;
+  font-family: Nunito;
 }
 a:link {
   text-decoration: none;
@@ -108,9 +108,9 @@ a:hover {
   text-decoration: underline;
   border-bottom: 1px dashed #e25440;
 }
-.fancystuff {
-  font-family: 'Faster One';
-  }
+// .fancystuff {
+//   font-family: 'Faster One';
+//   }
 /*  h3 {
     font-size: 35px;
   }
@@ -127,8 +127,11 @@ a:hover {
   flex-direction: column;
   margin-left: 60px;
 
-  h1, h2, h3 {
+  h1 {
     font-family: 'Faster One';
+  }
+  h2, h3 {
+    font-family: 'Nunito';
   }
 }
 
