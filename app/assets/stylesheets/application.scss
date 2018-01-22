@@ -18,7 +18,7 @@
 
  @import url("https://fonts.googleapis.com/css?family=Alegreya:400,300,700|Raleway:400,100,300,700,500");
  @import url("https://fonts.googleapis.com/css?family=Nunito:400,900");
- @import url("https://fonts.googleapis.com/css?family=Changa|Kavivanar|Cutive+Mono|Damion|Cookie");
+ @import url("https://fonts.googleapis.com/css?family=Changa|Kavivanar|Cutive+Mono|Damion|Sedgwick+Ave");
 
 body {
   display: flex;
@@ -30,8 +30,9 @@ body {
 }
 
 .idea-photo {
-  height: 300px;
-  width: 300px;
+  height: 200px;
+  width: 200px;
+  padding-right: 20px;
 }
 .testimonials {
   width: 70%;
@@ -47,8 +48,7 @@ body {
   height: 200px;
   width: 200px;
   padding-right: 20px;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
+
 }
 
 .row {
@@ -88,8 +88,11 @@ a:hover {
 
   .fancystuff {
     font-family: Damion;
-    font-size: 24px;
+
   }
+}
+.ideas img {
+  max-width: 70%;
 }
 
 .testimonials, .experience, .education, .ideas {
@@ -108,7 +111,7 @@ a:hover {
 .fancystuff {
   font-family: Damion;
   }
-  h3 {
+/*  h3 {
     font-size: 35px;
   }
   h2 {
@@ -116,7 +119,7 @@ a:hover {
   }
   h1 {
     font-size: 50px;
-  }
+  }*/
 }
 
 
@@ -125,7 +128,7 @@ a:hover {
   margin-left: 60px;
 
   h1, h2, h3 {
-    font-family: Nunito;
+    font-family: 'Sedgwick Ave', cursive;
   }
 }
 
