@@ -24,13 +24,18 @@ $(document).ready(function(){
      $(".education").hide();
      $(".experience").hide();
      $(".testimonials").hide();
-
+     $(".hello-link").addClass("selected");
 $(".hello-link").click(function(){
     $(".letter").show();
     $(".ideas").hide();
    $(".education").hide();
    $(".experience").hide();
    $(".testimonials").hide();
+   $(".hello-link").addClass("selected");
+   $(".ideas-link").removeClass("selected");
+   $(".education-link").removeClass("selected");
+   $(".experience-link").removeClass("selected");
+   $(".testimonials-link").removeClass("selected");
 });
 $(".ideas-link").click(function(){
     $(".letter").hide();
@@ -38,6 +43,11 @@ $(".ideas-link").click(function(){
    $(".education").hide();
    $(".experience").hide();
    $(".testimonials").hide();
+   $(".hello-link").removeClass("selected");
+   $(".ideas-link").addClass("selected");
+   $(".education-link").removeClass("selected");
+   $(".experience-link").removeClass("selected");
+   $(".testimonials-link").removeClass("selected");
 });
 $(".education-link").click(function(){
     $(".letter").hide();
@@ -45,6 +55,11 @@ $(".education-link").click(function(){
    $(".education").show();
    $(".experience").hide();
    $(".testimonials").hide();
+   $(".hello-link").removeClass("selected");
+   $(".ideas-link").removeClass("selected");
+   $(".education-link").addClass("selected");
+   $(".experience-link").removeClass("selected");
+   $(".testimonials-link").removeClass("selected");
 });
 $(".experience-link").click(function(){
     $(".letter").hide();
@@ -52,6 +67,11 @@ $(".experience-link").click(function(){
    $(".education").hide();
    $(".experience").show();
    $(".testimonials").hide();
+   $(".hello-link").removeClass("selected");
+   $(".ideas-link").removeClass("selected");
+   $(".education-link").removeClass("selected");
+   $(".experience-link").addClass("selected");
+   $(".testimonials-link").removeClass("selected");
 });
 $(".testimonials-link").click(function(){
     $(".letter").hide();
@@ -59,5 +79,10 @@ $(".testimonials-link").click(function(){
    $(".education").hide();
    $(".experience").hide();
    $(".testimonials").show();
+   $(".hello-link").removeClass("selected");
+   $(".ideas-link").removeClass("selected");
+   $(".education-link").removeClass("selected");
+   $(".experience-link").removeClass("selected");
+   $(".testimonials-link").addClass("selected");
 });
    });

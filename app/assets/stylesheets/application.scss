@@ -27,16 +27,14 @@ body {
   ul {
     list-style: none;
   }
-}
 
+}
 .idea-photo {
   height: 200px;
   width: 200px;
   padding-right: 20px;
 }
 .testimonials {
-  width: 70%;
-
   .row p {
     margin-top: 0;
   }
@@ -51,6 +49,12 @@ body {
 
 }
 
+  // .testimonial3 {
+  //   display: flex;
+  //   align-items: center;
+  //   margin-bottom: 0px;
+  // }
+
 .row {
   display: flex;
 }
@@ -60,66 +64,59 @@ body {
   flex-direction: column;
   list-style: none;
   text-transform: uppercase;
+  li {
+    padding-bottom: 5px;
+  }
+a.selected {
+    color: #256EFF;
+    font-weight: bold;
+  }
 a {
-  color: #FF371E;
-  font-family: Nunito;
+  color: #e25440;
+  font-family: Cutive Mono;
+  font-size: 20px;
 }
 a:link {
   text-decoration: none;
-
 }
 a:hover {
-  text-decoration: underline;
-
+  text-decoration: none;
+  font-weight: bold;
 }
+
 }
 .letter {
   font-family: Cutive Mono;
-  width: 50%;
+  width: 60%;
   font-size: 18px;
-  a:link {
-  text-decoration: none;
-  border-bottom: 1px dashed #e25440;
-}
-a:hover {
-  text-decoration: underline;
-  border-bottom: 1px dashed #e25440;
-}
-
   .fancystuff {
     font-family: 'Faster One';
-
   }
 }
 .ideas img {
   max-width: 70%;
 }
 
-.testimonials, .experience, .education, .ideas {
+.testimonials, .experience, .education, .ideas, .letter {
   font-family: Cutive Mono;
   font-size: 18px;
   margin-bottom: 50px;
   a:link {
   text-decoration: none;
   border-bottom: 1px dashed #e25440;
-
+  color: #256EFF;
 }
 a:hover {
-  text-decoration: underline;
+  text-decoration: none;
   border-bottom: 1px dashed #e25440;
+  font-weight: bold;
+  color: #256EFF;
 }
-// .fancystuff {
-//   font-family: 'Faster One';
-//   }
-/*  h3 {
-    font-size: 35px;
-  }
-  h2 {
-    font-size: 40px;
-  }
-  h1 {
-    font-size: 50px;
-  }*/
+a:visited {
+  text-decoration: none;
+  border-bottom: 1px dashed #e25440;
+  color: #256EFF;
+}
 }
 
 
@@ -135,6 +132,6 @@ a:hover {
   }
 }
 
-.experience, .education, .ideas {
-  width: 70%;
+.experience, .education, .ideas, .testimonials {
+  width: 60%;
 }
