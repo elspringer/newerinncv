@@ -159,5 +159,8 @@ a:visited {
     .testimonials, .experience, .education, .ideas, .letter {
       width: 90%;
     }
+    .row {
+      flex-direction: column;
+    }
   }
 
