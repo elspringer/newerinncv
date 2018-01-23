@@ -72,7 +72,7 @@ a.selected {
     font-weight: bold;
   }
 a {
-  color: #e25440;
+  color: #ff4d4d;
   font-family: Cutive Mono;
   font-size: 20px;
 }
@@ -103,18 +103,18 @@ a:hover {
   margin-bottom: 50px;
   a:link {
   text-decoration: none;
-  border-bottom: 1px dashed #e25440;
+  border-bottom: 1px dashed #ff4d4d;
   color: #256EFF;
 }
 a:hover {
   text-decoration: none;
-  border-bottom: 1px dashed #e25440;
+  border-bottom: 1px dashed #ff4d4d;
   font-weight: bold;
   color: #256EFF;
 }
 a:visited {
   text-decoration: none;
-  border-bottom: 1px dashed #e25440;
+  border-bottom: 1px dashed #ff4d4d;
   color: #256EFF;
 }
 }
@@ -126,6 +126,7 @@ a:visited {
 
   h1 {
     font-family: 'Faster One';
+    font-size: 43px;
   }
   h2, h3 {
     font-family: 'Nunito';
@@ -135,3 +136,17 @@ a:visited {
 .experience, .education, .ideas, .testimonials {
   width: 60%;
 }
+
+// making response try
+  @media all and (max-width: 600px) {
+    body{
+      flex-direction: column;
+      width: 90%;
+    }
+  }
+  @media all and (max-width: 950px) {
+    .testimonials, .experience, .education, .ideas, .letter {
+      width: 90%;
+    }
+  }
+
