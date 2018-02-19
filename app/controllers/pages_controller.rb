@@ -17,4 +17,8 @@ class PagesController < ApplicationController
   def testimonials
   end
 
+ def download_pdf
+  send_file "#{Rails.root}/public/erinnforsoundcloud.pdf", type: "application/pdf", x_sendfile: true
+end
+
 end

@@ -30,6 +30,7 @@ body {
     list-style: none;
   }
 
+
 }
 .idea-photo {
   height: 200px;
@@ -133,6 +134,17 @@ a:visited {
 }
 }
 
+.download-buttons {
+  border-bottom: none;
+  margin-bottom: 20px;
+  padding: 15px 30px 15px 30px;
+  background: #256EFF;
+  color: black;
+  font-family: 'Cutive Mono';
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
 
 .page-wrapper {
   flex-direction: column;

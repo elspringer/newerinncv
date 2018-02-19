@@ -14,20 +14,21 @@
 <p class="fancystuff homepagestuff">Erinn L Springer
 </p>
 
-
+<%= button_to "Download My Resume", erinn_pdf_path, class: 'download-buttons',  :method => :get %>
+<br>
 Type — <%= mail_to 'erinnlspringer@gmail.com', 'erinnlspringer@gmail.com', target: "_blank"%>
 <br>
 Talk — (312)636-0793
 <br>
-Tweet — <%= link_to 'Twitter', 'https://twitter.com/ErinnLSpringer', target: "_blank" %>
+Tweet — <%= link_to 'Twitter', 'https://twitter.com/ErinnLSpringer', class: 'homepage-links', target: "_blank" %>
 <br>
 Heart — <%= link_to 'Instagram', 'https://www.instagram.com/erinnlspringer/', target: "_blank"%>
 <br>
-Read — <%= link_to 'Medium', 'https://sheddingcharlatans.com/', target: "_blank" %>
+Read — <%= link_to 'Medium', 'https://sheddingcharlatans.com/', class: 'homepage-links', target: "_blank" %>
 <br>
-Listen — <%= link_to 'Soundcloud', 'https://soundcloud.com/erinn-springer', target: "_blank" %>
+Listen — <%= link_to 'Soundcloud', 'https://soundcloud.com/erinn-springer', class: 'homepage-links', target: "_blank" %>
 <br>
-Code — <%= link_to 'Github', 'https://github.com/elspringer', target: "_blank" %>
+Code — <%= link_to 'Github', 'https://github.com/elspringer', class: 'homepage-links', target: "_blank" %>
 
 </div>
 <div class="ideas">
