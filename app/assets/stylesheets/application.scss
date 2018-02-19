@@ -73,9 +73,11 @@ p.fancystuff {
   display: flex;
   flex-direction: column;
   list-style: none;
-  text-transform: uppercase;
+  min-width: 200px;
+
   li {
     padding-bottom: 5px;
+    text-transform: uppercase;
   }
 a.selected {
     color: #256EFF;
@@ -93,7 +95,9 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-
+.therelinks {
+  padding-top: 100px;
+}
 }
 .letter {
   font-family: Cutive Mono;
