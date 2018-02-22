@@ -18,7 +18,7 @@ class PagesController < ApplicationController
   end
 
  def download_pdf
-  send_file "#{Rails.root}/public/erinnforsoundcloud.pdf", type: "application/pdf", x_sendfile: true
+  send_file "#{Rails.root}/public/erinnforzalando.pdf", type: "application/pdf", x_sendfile: true
 end
 
 end
