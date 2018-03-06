@@ -26,6 +26,7 @@ body {
   display: flex;
   justify-content: flex-start;
   /*background-color: #D3D3D3;*/
+
   ul {
     list-style: none;
   }
@@ -94,6 +95,7 @@ p.fancystuff {
     font-size: 16px;
   }
   .nav-header, .therelinks {
+    max-width: 150px;
     font-family: Cutive Mono;
   }
 a.selected {
@@ -168,7 +170,8 @@ a:visited {
 
   h1 {
     font-family: 'Faster One';
-    font-size: 43px;
+    color: black;
+
   }
   h2, h3 {
     font-family: 'Cutive Mono';
@@ -176,9 +179,85 @@ a:visited {
   }
 }
 
+.slidinghome {
+  padding-bottom: 80px;
+  font-size: 45px;
+}
+
 .experience, .education, .ideas, .testimonials {
   width: 60%;
 }
+
+/*Vertical Sliding*/
+.slidingVertical{
+  display: inline;
+
+  // text-indent: 8px;
+}
+.slidingVertical span{
+  animation: topToBottom 18s linear infinite 0s;
+  -ms-animation: topToBottom 18s linear infinite 0s;
+  -webkit-animation: topToBottom 18s linear infinite 0s;
+  color: black;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+}
+.slidingVertical span:nth-child(2){
+  animation-delay: 3s;
+  -ms-animation-delay: 3s;
+  -webkit-animation-delay: 3s;
+}
+.slidingVertical span:nth-child(3){
+  animation-delay: 6s;
+  -ms-animation-delay: 6s;
+  -webkit-animation-delay: 6s;
+}
+.slidingVertical span:nth-child(4){
+  animation-delay: 9s;
+  -ms-animation-delay: 9s;
+  -webkit-animation-delay: 9s;
+}
+.slidingVertical span:nth-child(5){
+  animation-delay: 12s;
+  -ms-animation-delay: 12s;
+  -webkit-animation-delay: 12s;
+}
+.slidingVertical span:nth-child(6){
+  animation-delay: 15s;
+  -ms-animation-delay: 15s;
+  -webkit-animation-delay: 15s;
+}
+
+/*topToBottom Animation*/
+@-moz-keyframes topToBottom{
+  0% { opacity: 0; }
+  5% { opacity: 0; -moz-transform: translateY(-50px); }
+  10% { opacity: 1; -moz-transform: translateY(0px); }
+  25% { opacity: 1; -moz-transform: translateY(0px); }
+  30% { opacity: 0; -moz-transform: translateY(50px); }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-webkit-keyframes topToBottom{
+  0% { opacity: 0; }
+  5% { opacity: 0; -webkit-transform: translateY(-50px); }
+  10% { opacity: 1; -webkit-transform: translateY(0px); }
+  25% { opacity: 1; -webkit-transform: translateY(0px); }
+  30% { opacity: 0; -webkit-transform: translateY(50px); }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes topToBottom{
+  0% { opacity: 0; }
+  5% { opacity: 0; -ms-transform: translateY(-50px); }
+  10% { opacity: 1; -ms-transform: translateY(0px); }
+  25% { opacity: 1; -ms-transform: translateY(0px); }
+  30% { opacity: 0; -ms-transform: translateY(50px); }
+  80% { opacity: 0; }
+  100% { opacity: 0; }
+}
+
 
 // making response try
   @media all and (max-width: 600px) {
