@@ -114,9 +114,7 @@ a:hover {
   text-decoration: none;
   font-weight: bold;
 }
-.therelinks {
-  padding-top: 100px;
-}
+
 }
 .letter {
   font-family: Cutive Mono;
@@ -262,7 +260,9 @@ a:visited {
     body{
       flex-direction: column;
       width: 90%;
+
     }
+
   }
   @media all and (max-width: 950px) {
     .testimonials, .experience, .education, .ideas, .letter {
@@ -271,5 +271,6 @@ a:visited {
     .row {
       flex-direction: column;
     }
+
   }
 
