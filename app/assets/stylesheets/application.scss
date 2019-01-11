@@ -34,6 +34,7 @@ body {
 
 }
 
+
 .idea-photo {
   height: 200px;
   width: 200px;
@@ -59,7 +60,7 @@ p.fancystuff {
 
 }
 .homepagestuff {
-  margin-bottom: 55px;
+  margin-bottom: 15px;
 }
 
   // .testimonial3 {
@@ -75,7 +76,15 @@ p.fancystuff {
 .row {
   display: flex;
 }
-
+// .erinnphotodiv {
+//   width: 100px;
+//   height: 100px;
+//   bottom:0;
+// }
+.erinnphoto {
+  width: 200px;
+  bottom:0;
+}
 .nav-column {
   display: flex;
   flex-direction: column;
@@ -128,10 +137,31 @@ a:hover {
   max-width: 70%;
 }
 
-.testimonials, .experience, .education, .ideas, .letter {
+.testimonials, .experience, .education, .ideas {
   font-family: 'Cutive Mono';
   font-size: 18px;
   margin-bottom: 50px;
+  a:link {
+  text-decoration: none;
+  border-bottom: 1px dashed #ff4d4d;
+  color: #256EFF;
+}
+a:hover {
+  text-decoration: none;
+  border-bottom: 1px dashed #ff4d4d;
+  font-weight: bold;
+  color: #256EFF;
+}
+a:visited {
+  text-decoration: none;
+  border-bottom: 1px dashed #ff4d4d;
+  color: #256EFF;
+}
+}
+
+.letter {
+  font-family: 'Cutive Mono';
+  font-size: 18px;
   a:link {
   text-decoration: none;
   border-bottom: 1px dashed #ff4d4d;
