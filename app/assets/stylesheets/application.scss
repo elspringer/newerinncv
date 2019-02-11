@@ -237,7 +237,9 @@ a:visited {
       width: 90%;
 
     }
-
+  .erinnphotodiv {
+    display:none
+  }
   }
   @media all and (max-width: 950px) {
     .testimonials, .experience, .education, .ideas, .letter {
@@ -246,6 +248,9 @@ a:visited {
     .row {
       flex-direction: column;
     }
+    .erinnphotodiv {
+    display:none
+  }
 
   }
 
