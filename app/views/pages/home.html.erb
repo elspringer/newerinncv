@@ -159,11 +159,23 @@ Code — <%#= link_to 'Github', 'https://github.com/elspringer', class: 'homepag
 <div class="testimonials">
 
   <h1 class="fancystuff">Testimonials</h1>
-    <div class="row">
+
+  <div class="row">
+      <div class="col-sm-4"><%= image_tag "lisalang.jpg", class:'testimonial-photo' %></div>
+      <div class="col-sm-7">
+      <p>Erinn is one of these rare people where Marketing and Technology come together in one place.
+Since she started, she grew quickly to become an important backbone to our team - taking care of everything around our website, hosting and SEO as well as newsletters, social media and PR strategies.<br>
+I highly valued Erinn’s contribution as she worked very well independently, always found a way to give a project an extra lift and was always someone I was able to rely on getting stuff done.<br>
+I can highly recommend Erinn Springer to anyone who needs an experienced manager with highly versatile task - she’ll thrive in any environment and will take it on another level.</p>
+      <p>Lisa Lang, <%= link_to "Founder & CEO, ThePowerHouse & ElektroCouture", "https://thepowerhouse.group", target: "_blank" %>  </p>
+      </div>
+    </div>
+
+    <div class="testimonial2 row">
       <div class="col-sm-4"><%= image_tag "mark-colwell.jpg", class:'testimonial-photo' %></div>
       <div class="col-sm-7">
       <p>It's very hard to find people like Erinn -- driven, creative, and dependable. If ever I had the chance to refer or hire Erinn to my own company, I would do so in a heartbeat.</p>
-      <p>Mark Colwell, Director of Marketing at <%= link_to "Procured Health", "https://procuredhealth.com/", target: "_blank" %> </p>
+      <p>Mark Colwell, <%= link_to "Director of Marketing at Procured Health", "https://procuredhealth.com/", target: "_blank" %> </p>
       </div>
     </div>
 
